@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8fbff"/><stop offset="1" stop-color="#eef4fb"/></linearGradient>
+    <linearGradient id="hub" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2563eb"/><stop offset="1" stop-color="#4f46e5"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#19324d" flood-opacity=".10"/></filter>
+    <style>
+      .font{font-family:'Malgun Gothic','Noto Sans KR',sans-serif}.title{font-size:30px;font-weight:700;fill:#172b4d}.sub{font-size:15px;fill:#64748b}.cardTitle{font-size:21px;font-weight:700;fill:#172b4d}.small{font-size:13px;fill:#64748b}.tag{font-size:12px;font-weight:700;fill:#315a9b;letter-spacing:.4px}
+    </style>
+  </defs>
+  <rect width="1200" height="800" rx="28" fill="url(#bg)"/>
+  <text class="font title" x="600" y="64" text-anchor="middle">서비스 구성도</text>
+  <text class="font sub" x="600" y="92" text-anchor="middle">인터넷을 통해 연결되는 음악 서비스와 데이터 저장소</text>
+  <!-- links -->
+  <g fill="none" stroke="#9bb2d0" stroke-width="3" stroke-linecap="round">
+    <path d="M390 282 L510 355"/><path d="M810 282 L690 355"/><path d="M390 518 L510 445"/><path d="M810 518 L690 445"/>
+  </g>
+  <g fill="#fff" stroke="#9bb2d0" stroke-width="2"><circle cx="390" cy="282" r="6"/><circle cx="810" cy="282" r="6"/><circle cx="390" cy="518" r="6"/><circle cx="810" cy="518" r="6"/></g>
+  <!-- cards -->
+  <g filter="url(#shadow)">
+    <rect x="95" y="205" width="295" height="154" rx="20" fill="#fff"/><rect x="810" y="205" width="295" height="154" rx="20" fill="#fff"/>
+    <rect x="95" y="441" width="295" height="154" rx="20" fill="#fff"/><rect x="810" y="441" width="295" height="154" rx="20" fill="#fff"/>
+  </g>
+  <!-- accent bars -->
+  <rect x="95" y="225" width="5" height="114" rx="2.5" fill="#f59e0b"/><rect x="810" y="225" width="5" height="114" rx="2.5" fill="#22c55e"/>
+  <rect x="95" y="461" width="5" height="114" rx="2.5" fill="#ef4444"/><rect x="810" y="461" width="5" height="114" rx="2.5" fill="#16a34a"/>
+  <!-- card content -->
+  <g class="font">
+    <text class="tag" x="125" y="250">API SERVER</text><text class="cardTitle" x="125" y="286">내 플레이리스트 서버</text><text class="small" x="125" y="315">플레이리스트 요청 처리</text>
+    <text class="tag" x="840" y="250">API SERVER</text><text class="cardTitle" x="840" y="286">노래 인기 순위 서버</text><text class="small" x="840" y="315">인기 순위 데이터 제공</text>
+    <text class="tag" x="125" y="486">SEARCH</text><text class="cardTitle" x="125" y="522">노래 검색 정보</text><text class="small" x="125" y="551">검색 결과 및 곡 정보</text>
+    <text class="tag" x="840" y="486">DATABASE</text><text class="cardTitle" x="840" y="522">인기 순위 Top 100 DB</text><text class="small" x="840" y="551">순위 데이터 저장</text>
+  </g>
+  <!-- hub -->
+  <g filter="url(#shadow)"><circle cx="600" cy="400" r="105" fill="url(#hub)"/></g>
+  <circle cx="600" cy="400" r="87" fill="none" stroke="#ffffff" stroke-opacity=".22" stroke-width="1.5"/>
+  <g class="font" fill="#fff" text-anchor="middle"><text x="600" y="395" font-size="28" font-weight="700">인터넷</text><text x="600" y="423" font-size="14" fill="#dbeafe">Internet</text></g>
+  <!-- tech/service badges -->
+  <g class="font" filter="url(#shadow)">
+    <rect x="95" y="132" width="190" height="48" rx="16" fill="#fff" stroke="#d9e3ef"/><path d="M117 141 L130 141 L140 151 L140 164 L130 174 L117 174 L107 164 L107 151Z" fill="#43853d"/><text x="123.5" y="161" text-anchor="middle" font-size="8" font-weight="700" fill="#fff">JS</text><text x="151" y="153" font-size="14" font-weight="700" fill="#253746">Node.js</text><text x="151" y="169" font-size="11" fill="#6b7c8f">Express</text>
+    <rect x="810" y="132" width="190" height="48" rx="16" fill="#fff" stroke="#d9e3ef"/><path d="M828 144 L842 144 L835 157Z" fill="#42b883"/><path d="M835 144 L849 144 L842 157Z" fill="#35495e"/><text x="857" y="153" font-size="13" font-weight="700" fill="#35495e">Vue</text><text x="857" y="169" font-size="11" fill="#6b7c8f">+ Vuetify</text>
+    <rect x="95" y="619" width="116" height="36" rx="18" fill="#fff" stroke="#f3c5c5"/><circle cx="116" cy="637" r="10" fill="#ef4444"/><path d="M112 633 L121 637 L112 641Z" fill="#fff"/><text x="134" y="642" font-size="13" font-weight="700" fill="#9b3f3f">YouTube</text>
+    <rect x="810" y="619" width="130" height="36" rx="18" fill="#fff" stroke="#b8e4ca"/><circle cx="831" cy="637" r="10" fill="#16834b"/><text x="831" y="641" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">M</text><text x="849" y="642" font-size="13" font-weight="700" fill="#287348">MongoDB</text>
+  </g>
+  <text class="font small" x="600" y="735" text-anchor="middle" fill="#94a3b8">서비스 간 데이터 연결</text>
+</svg>
+
