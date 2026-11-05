@@ -9,3 +9,6 @@
 - 플레이리스트에서 곡을 선택해 바로 재생
 - 원하는 노래 검색
 </pre>
+
+### 개념적 모델링
+<img width="1901" height="908" alt="서비스 구성도" src="https://github.com/user-attachments/assets/8bf12272-329b-4487-b0ee-93fa57cd92c3" />
