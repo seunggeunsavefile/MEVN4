@@ -11,3 +11,4 @@
 </pre>
 
 ### 개념적 모델링
+<img width="900" alt="서비스 구성도" src="https://raw.githubusercontent.com/seunggeunsavefile/MEVN4/main/%EA%B8%B0%ED%83%80%EC%9E%90%EB%A3%8C/%EC%84%9C%EB%B9%84%EC%8A%A4%EA%B5%AC%EC%83%81%EB%8F%84.svg" />
