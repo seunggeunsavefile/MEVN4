@@ -40,4 +40,4 @@
 <br>
 
 ### 🔗 참고 링크
-- **Notion:** [아이디어붐 바로가기](https://www.ideaboom.net/project/project/view?seq=1518&search_keyword=%EC%9C%A4%EC%8A%B9%EA%B7%BC=copy_link)  
+- **아이디어붐:** [아이디어붐 바로가기](https://www.ideaboom.net/project/project/view?seq=1518&search_keyword=%EC%9C%A4%EC%8A%B9%EA%B7%BC=copy_link)  
