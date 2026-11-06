@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">서비스 이용 시나리오</title>
+  <desc id="desc">시작 페이지에서 로그인한 뒤 인기 차트에서 곡을 선택하거나 검색하고, YouTube에서 노래를 열어 저장한 다음 내 플레이리스트에서 재생하는 흐름</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8fbff"/><stop offset="1" stop-color="#eef4fb"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2563eb"/><stop offset="1" stop-color="#4f46e5"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#19324d" flood-opacity=".10"/></filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L10 5 L0 10Z" fill="#91a9c8"/></marker>
+    <style>
+      .font{font-family:'Malgun Gothic','Noto Sans KR',sans-serif}.heading{font-size:32px;font-weight:700;fill:#172b4d}.subtitle{font-size:16px;fill:#64748b}.eyebrow{font-size:12px;font-weight:700;letter-spacing:1.4px;fill:#55739a}.step-title{font-size:21px;font-weight:700;fill:#172b4d}.step-desc{font-size:14px;fill:#64748b}.num{font-size:14px;font-weight:700;fill:#fff}
+    </style>
+  </defs>
+  <rect width="1400" height="900" rx="30" fill="url(#background)"/>
+  <text class="font heading" x="700" y="70" text-anchor="middle">서비스 이용 시나리오</text>
+  <text class="font subtitle" x="700" y="101" text-anchor="middle">로그인부터 원하는 노래를 저장하고 다시 듣기까지</text>
+  <rect x="596" y="130" width="208" height="34" rx="17" fill="#e5edff"/><text class="font eyebrow" x="700" y="152" text-anchor="middle">USER JOURNEY</text>
+
+  <!-- flow connectors: top row, turn down, then bottom row right-to-left -->
+  <g fill="none" stroke="#91a9c8" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)">
+    <path d="M330 325 H363"/><path d="M650 325 H683"/><path d="M970 325 H1003"/>
+    <path d="M1125 430 V498"/>
+    <path d="M990 590 H957"/><path d="M680 590 H647"/><path d="M370 590 H337"/>
+  </g>
+
+  <!-- cards -->
+  <g filter="url(#shadow)" fill="#fff">
+    <rect x="60" y="220" width="270" height="210" rx="22"/><rect x="370" y="220" width="280" height="210" rx="22"/>
+    <rect x="690" y="220" width="280" height="210" rx="22"/><rect x="1010" y="220" width="280" height="210" rx="22"/>
+    <rect x="1010" y="490" width="280" height="200" rx="22"/><rect x="690" y="490" width="280" height="200" rx="22"/>
+    <rect x="370" y="490" width="280" height="200" rx="22"/><rect x="60" y="490" width="270" height="200" rx="22"/>
+  </g>
+  <!-- card accent rails -->
+  <g>
+    <rect x="60" y="246" width="5" height="158" rx="2.5" fill="#4f72bd"/><rect x="370" y="246" width="5" height="158" rx="2.5" fill="#4f72bd"/>
+    <rect x="690" y="246" width="5" height="158" rx="2.5" fill="#4f72bd"/><rect x="1010" y="246" width="5" height="158" rx="2.5" fill="#4f72bd"/>
+    <rect x="1010" y="516" width="5" height="148" rx="2.5" fill="#4f72bd"/><rect x="690" y="516" width="5" height="148" rx="2.5" fill="#4f72bd"/>
+    <rect x="370" y="516" width="5" height="148" rx="2.5" fill="#4f72bd"/><rect x="60" y="516" width="5" height="148" rx="2.5" fill="#22a06b"/>
+  </g>
+  <!-- step numbers -->
+  <g>
+    <circle cx="101" cy="274" r="19" fill="url(#accent)"/><circle cx="411" cy="274" r="19" fill="url(#accent)"/><circle cx="731" cy="274" r="19" fill="url(#accent)"/><circle cx="1051" cy="274" r="19" fill="url(#accent)"/>
+    <circle cx="1051" cy="544" r="19" fill="url(#accent)"/><circle cx="731" cy="544" r="19" fill="url(#accent)"/><circle cx="411" cy="544" r="19" fill="url(#accent)"/><circle cx="101" cy="544" r="19" fill="#22a06b"/>
+    <g class="font num" text-anchor="middle"><text x="101" y="279">1</text><text x="411" y="279">2</text><text x="731" y="279">3</text><text x="1051" y="279">4</text><text x="1051" y="549">5</text><text x="731" y="549">6</text><text x="411" y="549">7</text><text x="101" y="549">8</text></g>
+  </g>
+  <!-- labels -->
+  <g class="font">
+    <text class="eyebrow" x="90" y="322">ENTRY</text><text class="step-title" x="90" y="358">시작 페이지</text><text class="step-desc" x="90" y="386">서비스에 접속합니다</text>
+    <text class="eyebrow" x="400" y="322">SIGN IN</text><text class="step-title" x="400" y="358">로그인</text><text class="step-desc" x="400" y="386">계정으로 로그인합니다</text>
+    <text class="eyebrow" x="720" y="322">TOP 100</text><text class="step-title" x="720" y="358">인기 차트 확인</text><text class="step-desc" x="720" y="386">1위부터 100위까지 살펴봅니다</text>
+    <text class="eyebrow" x="1040" y="322">CHOOSE A SONG</text><text class="step-title" x="1040" y="358">곡 선택 또는 검색</text><text class="step-desc" x="1040" y="386">차트에서 고르거나 직접 검색합니다</text>
+    <text class="eyebrow" x="1040" y="592">YOUTUBE</text><text class="step-title" x="1040" y="628">노래 영상 열기</text><text class="step-desc" x="1040" y="656">검색 결과에서 영상을 선택합니다</text>
+    <text class="eyebrow" x="720" y="592">SAVE</text><text class="step-title" x="720" y="628">플레이리스트에 저장</text><text class="step-desc" x="720" y="656">마음에 드는 노래를 저장합니다</text>
+    <text class="eyebrow" x="400" y="592">MY PLAYLIST</text><text class="step-title" x="400" y="628">내 플레이리스트</text><text class="step-desc" x="400" y="656">저장한 노래 목록을 엽니다</text>
+    <text class="eyebrow" x="90" y="592">PLAY</text><text class="step-title" x="90" y="628">노래 재생</text><text class="step-desc" x="90" y="656">저장한 노래를 다시 듣습니다</text>
+  </g>
+  <!-- closing note -->
+  <rect x="235" y="748" width="930" height="72" rx="20" fill="#e7efff"/>
+  <circle cx="274" cy="784" r="16" fill="url(#accent)"/><path d="M271 776 L282 784 L271 792Z" fill="#fff"/>
+  <text class="font" x="306" y="790" font-size="16" font-weight="700" fill="#315a9b">저장한 노래는 내 플레이리스트에서 언제든 다시 재생할 수 있습니다.</text>
+</svg>
