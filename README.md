@@ -13,5 +13,31 @@
 ### 개념적 모델링
 ![서비스 구성도](./기타자료/서비스구상도.svg)
 
+<br>
+
+---
+
+<br>
+
 ### 서비스 이용 시나리오
 ![서비스 이용 시나리오](./기타자료/서비스%20이용%20시나리오.svg)
+
+<br>
+
+---
+
+<br>
+
+### 🧾 README업데이트 이력
+| 날짜 | 내용 |
+|------|------|
+| 2026-11-06 | README 설명 추가 |
+
+<br>
+
+---
+
+<br>
+
+### 🔗 참고 링크
+- **Notion:** [아이디어붐 바로가기](https://www.ideaboom.net/project/project/view?seq=1518&search_keyword=%EC%9C%A4%EC%8A%B9%EA%B7%BC=copy_link)  
